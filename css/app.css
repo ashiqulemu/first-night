@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "custom";
+  src: url("../fonts/8a3208d4891972390b79474f0bb21fa9.woff2");
+}
+body {
+  background-image: url("../images/fnof-bg21.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.irespon {
+  height: 700px;
+}
+@media (max-width: 600px) {
+  .irespon {
+    height: 300px;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.border-black {
+  border: 1px solid black;
+}
+
+.header {
+  padding: 25px;
+  background: #fff;
+}
+.header .title p {
+  margin-bottom: 0;
+  line-height: 1;
+}
+.header .title p:nth-child(1) {
+  font-size: 7.4vw;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  color: #000;
+  font-family: "custom";
+}
+.header .title p:nth-child(2) {
+  font-size: 7.8vw;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  color: #85100E !important;
+  font-family: "custom";
+}
+.header .title p:nth-child(2) span {
+  color: #D6B550 !important;
+}
+.header .sub-title {
+  font-size: 4.8vw;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.dateTime {
+  font-size: 2.1rem;
+  font-weight: 900;
+  text-decoration: none;
+  color: #000;
+}/*# sourceMappingURL=app.css.map */
