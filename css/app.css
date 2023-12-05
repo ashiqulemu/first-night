@@ -20,6 +20,9 @@ body {
 a {
   text-decoration: none;
 }
+a:hover .dateTime {
+  color: #85100E !important;
+}
 
 .border-black {
   border: 1px solid black;

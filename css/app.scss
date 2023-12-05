@@ -24,6 +24,11 @@ body{
 
 a{
     text-decoration: none;
+    &:hover{
+        .dateTime {
+            color: $primary;
+        }
+    }
 }
 .border-black{
     border: 1px solid black;
