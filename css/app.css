@@ -19,18 +19,20 @@ body {
 
 a {
   text-decoration: none;
+  color: #002372 !important;
 }
-a:hover .dateTime {
-  color: #85100E !important;
-}
-
-.border-black {
-  border: 1px solid black;
+a .img-fluid {
+  border: 1px solid #000000;
 }
 
 .header {
   padding: 25px;
   background: #fff;
+}
+@media (max-width: 600px) {
+  .header {
+    padding: 15px;
+  }
 }
 .header .title p {
   margin-bottom: 0;
@@ -44,6 +46,11 @@ a:hover .dateTime {
   color: #000;
   font-family: "custom";
 }
+@media (max-width: 600px) {
+  .header .title p:nth-child(1) {
+    font-size: 34px;
+  }
+}
 .header .title p:nth-child(2) {
   font-size: 7.8vw;
   text-transform: uppercase;
@@ -51,6 +58,11 @@ a:hover .dateTime {
   font-weight: bold;
   color: #85100E !important;
   font-family: "custom";
+}
+@media (max-width: 600px) {
+  .header .title p:nth-child(2) {
+    font-size: 34px;
+  }
 }
 .header .title p:nth-child(2) span {
   color: #D6B550 !important;
@@ -60,6 +72,11 @@ a:hover .dateTime {
   text-align: center;
   text-transform: uppercase;
   font-weight: 700;
+}
+@media (max-width: 600px) {
+  .header .sub-title {
+    font-size: 21px;
+  }
 }
 
 .dateTime {
